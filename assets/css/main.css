@@ -1,7 +1,7 @@
 
-/*nav*/
+/*---------------------- NAV ----------------------*/
 
-.navbar{
+.navbar, #nav-bar-white{
 	width: 100%;
 	height: 105px;
 	box-sizing: border-box;
@@ -12,17 +12,17 @@
 	z-index: 1;
 }
 
-.menu{
+.menu, .menu.white{
 	width: 99%;
 	display: flex;
 	justify-content: space-between;
 }
 
-.left{
+.left, .left.white{
 	width: 5%;
 }
 
-.right{
+.right, .right.white{
 	width: 49%;
 	justify-content: flex-end;
 }
@@ -33,6 +33,12 @@
 	color: white;
 	padding: 2% 4% 0 4%;
 	font-size: 20px;
+}
+
+#option5{
+	padding: 1.5% 3%;
+	border: 1px solid white;
+	border-radius: 10px;
 }
 
 .video{
@@ -51,11 +57,32 @@
 
 /*hover del link*/
 
+.option.white{
+	color: #333447;
+}
 
-/*header*/
+#nav-bar-white{
+	background-color: white;
+}
+
+#option5-white{
+	padding: 1.5% 3%;
+	margin-right: 2%;
+	border: 1px solid #728099;
+	border-radius: 10px;
+}
+
+#option6-white{
+	padding: 1.5% 3%;
+	color: #FF00BF;
+	border: 1px solid #FF00BF;
+	border-radius: 10px;
+}
+
+/*-------------- HEADER --------------------*/
 .header{
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	position: relative;
 }
 
@@ -135,7 +162,47 @@ span{
 	padding-top: 3%;
 }
 
-/*footer*/
+
+/*------------------- INFORMACION --------------------------*/
+.infoSection{
+	width: 100%;
+	display: flex;
+	background: linear-gradient(#76278f,#2B1E66);
+}
+
+.infoTexto, .infoPicture{
+	width: 50%;
+	padding: 5% 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+.infoTexto{
+	padding: 6% 2% 5% 10%;
+}
+
+.infoPicture{
+	padding: 5% 10% 5% 6%;
+}
+
+.info.title.text-uppercase, .info.text{
+	color: white;
+}
+
+.info.title.text-uppercase{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#info-title-uno, #info-title-dos, #info-title-cuatro{
+	margin-bottom: 15px;
+}
+
+#info-text-dos, #info-text-cuatro{
+	margin-bottom: 60px;
+}
+
+/*------------------ FOOTER ---------------------------*/
 footer{
 	width: 100%;
 	background: #333447;

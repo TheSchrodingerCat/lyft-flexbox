@@ -8,11 +8,19 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-.mb{
+.mb-li{
   margin-bottom: 30px;
 }
 
-.mt{
+.mt-li{
+  margin-top: 15px;
+}
+
+.mb-span{
+  margin-bottom: 15px;
+}
+
+.mt-span{
   margin-top: 30px;
 }
 
@@ -26,6 +34,6 @@ body{
 	width: 100%;
 }
 
-/*.hide{
+.hide{
 	display: none;
-}*/
+}
