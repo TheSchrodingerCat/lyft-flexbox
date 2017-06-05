@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lyft Flexbox</title>
+	<script src="https://use.fontawesome.com/be0dd1e218.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -29,7 +30,7 @@
 
 	<!-- header -->
 	<section class="header" id="head-er">
-		<div class="video" id="video-header">
+		<div class="video img-responsive" id="video-header">
 			<video autoplay="autoplay" loop="loop" class="img-responsive" id="video-background" preload="auto" src="assets/img/hero-video.mp4"></video>
 		</div>
 
@@ -46,7 +47,7 @@
 				<input type="text" class="date hide" id="date-city" placeholder="City">
 			</div>
 			<div class="down">
-				<button class="botonSend mt-0 mb-0" id="boton-send">Become a driver</button>
+				<button class="botonSend" id="boton-send">Become a driver</button>
 				<a href="#" class="singUp text-form" id="sing-up">Sing up to ride</a>
 				<div class="parrafos">
 					<p class=" text-form ">Already applied? Check the status of your aplication here.</p>
@@ -64,37 +65,54 @@
 
 	<!-- footer -->
 	<footer>
-		<div class="item-footer" id="logIn">log in</div>
-			<ul>
-				<li>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-				</li>
-			</ul>
-		<div class="item-footer" id="partner">partner</div>
-			<ul>
-				<li>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-				</li>
-			</ul>
-		<div class="item-footer" id="learn">learn</div>
-			<ul>
-				<li>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-					<a href="#" class="enlace"></a>
-				</li>
-			</ul>
-		<div class="item-footer" id="icons"></div>
-			<img src="assets/img/apple-store.svg" alt="appStore" class="icons">
-			<img src="assets/img/google-play.png" alt="googlePlay" class="icons">
-			<img src="assets/img/microsoft.png" alt="microsoft" class="icons">
+		<div class="primero">
+			<div class="item-footer" id="logIn">
+				<p class="text-uppercase negritas">log in</p>
+				<ul>
+					<li class="mb mt"><a href="#" class="enlace">Help</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Cities</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Airport</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Fare Estimate</a></li>
+				</ul>
+			</div>
+			<div class="item-footer" id="partner">
+				<p class="text-uppercase negritas">partner</p>
+				<ul>
+					<li class="mb mt"><a href="#" class="enlace">Partnerships</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Enterprise</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Ambassadors</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Developers</a></li>
+				</ul>
+			</div>
+			<div class="item-footer" id="learn">
+				<p class="text-uppercase negritas">learn</p>
+				<ul>
+					<li class="mb mt"><a href="#" class="enlace">Safety</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Blog</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Press</a></li>
+					<li class="mb mt"><a href="#" class="enlace">Carrers</a></li>
+				</ul>
+			</div>
+			<div class="item-footer logos" id="logos">
+				<img src="assets/img/apple-store.svg" alt="appStore" class="logos mb-logos mt-logos">
+				<img src="assets/img/google-play.png" alt="googlePlay" class="logos mb-logos mt-logos">
+				<img src="assets/img/microsoft.png" alt="microsoft" class="logos mb-logos mt-logos">
+			</div>
+		</div>
+		
+		<div class="redesSociales" id="redes-sociales">
+			<button class="social-net"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+			<button class="social-net"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+			<button class="social-net"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+		</div>
+
+		<div class="line">
+			<hr class="largeLine">
+		</div>
+
+		<div class="copyright">
+			&copy 2017 Lyft, Inc. TermsPrivacy
+		</div>
 	</footer>
 
 	<script src="assets/js/main.js"></script>
