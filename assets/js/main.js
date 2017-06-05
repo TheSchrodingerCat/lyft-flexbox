@@ -22,10 +22,32 @@
 		var email = document.getElementById("date-email");
 		var city = document.getElementById("date-city");
 
-		name.classList.toggle("hide");
-		email.classList.toggle("hide");
-		city.classList.toggle("hide");
+		name.classList.remove("hide");
+		email.classList.remove("hide");
+		city.classList.remove("hide");
 	});
+
+
+	//validación del formulario
+
+	var number = document.getElementById("date-phone");
+	var name = document.getElementById("date-name");
+	var email = document.getElementById("date-email");
+	var city = document.getElementById("date-city");
+
+	function validateNumber(){
+		var numberValidate = (/^[0-9]{9}$/).test(document.getElementById("date-phone").value);
+		var number = document.getElementById("date-phone");
+		
+		
+		if (!numberValidate){
+			number.classList.remove("nothing-number");
+		} else {
+			number.classList.add("nothing-number");
+		}
+	}
+	validateNumber();
+
 
 })();
 

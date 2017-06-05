@@ -41,20 +41,6 @@
 	border-radius: 10px;
 }
 
-.video{
-	position: relative; 
-	top: 0px; 
-	left: 0px;
-}
-
-#video_background { 
-	min-width: 100%; 
-	min-height: 100%; 
-	width: auto; 
-	height: auto; 
-	overflow: hidden;
-}
-
 /*hover del link*/
 
 .option.white{
@@ -82,8 +68,24 @@
 /*-------------- HEADER --------------------*/
 .header{
 	width: 100%;
-	/*height: 100%;*/
+	height: auto;
 	position: relative;
+	top: 0px; 
+	left: 0px;
+}
+
+.video{
+	position: relative; 
+	top: 0px; 
+	left: 0px;
+}
+
+#video-background{ 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	overflow: hidden;
 }
 
 /*formulario*/
